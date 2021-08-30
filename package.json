@@ -1,0 +1,13 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },"keywords": [
+    "scss"
+  ],
+  "author": "",
+  "license": "ISC"
+}

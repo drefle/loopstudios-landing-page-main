@@ -1,0 +1,44 @@
+
+@mixin container_title {
+    text-transform: uppercase;
+    font-size:2.2rem ;
+    font-family: JosefinSans-Light;
+    color:$color_black;
+    font-weight: 300;
+
+}
+
+@mixin title_section{
+    text-transform: uppercase;
+    font-size:3.5vw ;
+    font-family: JosefinSans-Light;
+    font-weight: 300;
+    color:$color_black;
+    text-align: left;
+}
+
+@mixin image_title {
+    font-family: JosefinSans-Light;
+    font-size: 2.5vw;
+    color: $color_white;
+    text-transform: uppercase;
+
+}
+
+@mixin image($image) {
+    background-image:$image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin icon{
+    width: 30px;
+    height:30px;
+}
